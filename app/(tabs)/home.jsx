@@ -74,7 +74,7 @@ const Home = () => {
             style={{ height: 600, width: '100%', marginTop: 20 }}
             resizeMode="cover"
           />
-
+            <Link href="customerManagement" asChild>
           <TouchableOpacity>
             <View className="mt-6 items-center">
               <Text className="text-2xl p-4 bg-black/50 text-white">
@@ -82,6 +82,7 @@ const Home = () => {
               </Text>
             </View>
           </TouchableOpacity>
+          </Link>
 
         </View>
       </ScrollView>

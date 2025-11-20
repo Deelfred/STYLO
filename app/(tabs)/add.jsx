@@ -16,7 +16,7 @@ const Add = () => {
         
         <View className="px-10">
 
-        <Link href="male" asChild>
+        <Link href="/male/maleMeasurements" asChild>
           <TouchableOpacity className="border-2 border-white rounded-xl mb-6 py-2 px-4">
             <View className="flex-row justify-center items-center space-x-2">
               <Ionicons name="man" color="white" size={40} />
@@ -25,7 +25,7 @@ const Add = () => {
           </TouchableOpacity>
           </Link>
 
-    <Link href="female" asChild>
+    <Link href="/female/femaleMeasurements" asChild>
           <TouchableOpacity className="border-2 border-white rounded-xl py-2 px-4">
             <View className="flex-row justify-center items-center space-x-2">
               <Ionicons name="woman" color="white" size={40} />
