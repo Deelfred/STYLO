@@ -3,7 +3,7 @@ import { View, Text, TextInput, ScrollView, TouchableOpacity, Alert } from 'reac
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import { CustomerContext } from './../context/CustomerContext'; // adjust path if needed
+import { CustomerContext } from '../context/CustomerContext'; // adjust path if needed
 
 const MaleMeasurements = () => {
   const router = useRouter();

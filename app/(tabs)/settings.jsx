@@ -39,9 +39,9 @@ const Settings = () => {
         <SettingRow iconName="notifications" label="Manage notifications" />
          <SettingRow iconName="body" label="About Stylo" />
           <SettingRow iconName="star" label="Rate Us" />
-           <SettingRow iconName="lock" label="Change password" /> 
-            <SettingRow iconName="trash" label="Delete my account permanently" />
-             <SettingRow iconName="log-out " label="Log out" />
+           <SettingRow iconName="build" label="Change password" /> 
+            <SettingRow iconName="trash" label="Delete account permanently" />
+             <SettingRow iconName="log-out" label="Log out" />
       </SafeAreaView>
     </View>
   );
